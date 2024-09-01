@@ -16,10 +16,10 @@ function updateTheClock() {
 
 function rotateTheArrows(h, m, s) {
     let secondDeg = s * 6;
-    let minDeg = m * 6;
+    let minuteDeg = m * 6;
     let hourDeg = h * 30;
 
     second.style.transform = `rotate(${secondDeg}deg)`;
-    minute.style.transform = `rotate(${minDeg}deg)`;
+    minute.style.transform = `rotate(${minuteDeg}deg)`;
     hour.style.transform = `rotate(${hourDeg}deg)`;
 }
